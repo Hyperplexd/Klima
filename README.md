@@ -1,85 +1,56 @@
+## Τίτλος
+
+Klima
+    Επαυξημένη ευαισθητοποίηση σε πραγματικό χρόνο για έναν καλύτερο πλανήτη
+
+## Τι είναι το Klima
+
+Το Klima είναι μια εφαρμογή επαυξημένης πραγματικότητας (AR) που έχει σκοπό να ευαισθητοποιήσει τον χρήστη σε θέματα κλιματικής αλλαγής. Xρησιμοποιεί την κάμερα του κινητού για να σκανάρει το περιβάλλον και να εντοπίσει αντικείμενα που συμβάλουν στις εκπομπές αερίων του θερμοκηπίου και τότε παρέχει πληροφορίες που μπορούν να μειώσουν αυτές τις εκπομπές. Με την αναγνώριση εικόνας σε πραγματικό χρόνο και την ανάλυση περιβαλλοντικών επιπτώσεων, οι χρήστες λαμβάνουν συμβουλές και καθοδήγηση για να μειώσουν το αποτύπωμά του CO2 τους.
+
+# Πώς λειτουργεί
+
+Η χρήση της εφαρμογής μας έχει τα ακόλουθα βήματα:
+
+Αρχικά προϋποθέτει είσοδο στο σύστημα ώστε να διατηρηθούν τα στοιχεία του χρήστη σε μία πλατφόρμα που θα δημιουργήσουμε μελλοντικά.
+
+Στις βασικές επιλογές του menu, ο χρήστης έχει την δυνατότητα να συμμετάσχει σε ένα ενημερωτικό Quiz εντός της εφαρμογής για να βελτιώσει τις γνώσεις και την κατανόησή του για τις περιβαλλοντικές επιπτώσεις των καθημερινών αντικειμένων, δίνοντάς τη δυνατότητα να κάνει συνειδητές επιλογές για ένα βιώσιμο μέλλον.
+
+Η βασική επιλογή της εφαρμογής είναι το AR Walkthrough. Με αυτή την επιλογή η κάμερα του κινητού ενεργοποιείται και ο χρήστης καλείται να στρέψει το smartphone του προς τα αντικείμενα που θέλει να ανιχνεύσει, όπως τηλεόραση, ψυγείο κλπ. Η εφαρμογή θα εντοπίσει μόνο αντικείμενα που συμβάλλουν στo φαινόμενο του θερμοκηπίου:
+
+Όταν η εφαρμογή εντοπίσει ένα αντικείμενο, εμφανίζεται μια ειδοποίηση, η οποία εμφανίζει με animation το ποσοστό των εκπομπών CO2 που συνεισφέρει το στοχευμένο αντικείμενο σε σύγκριση με άλλα αντικείμενα καθημερινής χρήσης. Επιπλέον, μια επιπλέον ποσοστιαία ένδειξη παρουσιάζει τις ετήσιες εκπομπές που παράγονται από το αντικείμενο, διευκρινίζοντας στους χρήστες τις επιπτώσεις του στο περιβάλλον.
+
+Πατώντας το κουμπί “Περισσότερα”, εμφανίζεται μια λεπτομερής σελίδα που δείχνει τις εκπομπές του αντικειμένου. Η σελίδα αποκαλύπτει την ετήσια παραγωγή CO2 σε τόνους, παρέχοντας μια σαφή κατανόηση των περιβαλλοντικών επιπτώσεών της. Επιπλέον, οι χρήστες μπορούν να ανακαλύψουν ένα fun fact που αναδεικνύει καλύτερα την κλίμακα των εκπομπών του αντικειμένου. Τέλος, η σελίδα παρουσιάζει συγκριτικά στατιστικά στοιχεία, συγκρίνοντας τις εκπομπές CO2 του αντικειμένου σε διαφορετικές χώρες, προσφέροντας πολύτιμες πληροφορίες για τις παγκόσμιες παραλλαγές.
+
+# Unity
+
+EditorVersion: 2022.2.5f1
+
 # OpenCV for Unity
 
-Use of OpenCV for Unity package to perform object detection
+Το ακόλουθο OpenCV package χρησιμοποιήθηκε για object detection:
 
     OpenCV v.2.4.7
-    same API as OpenCV Java 4.5.5
-    Build Android : API level 24 or later
-    Build iOS : iOS Version 9.0 or later
+    ίδιο API με το OpenCV Java 4.5.5
+    Build Android : API level 24 ή μεταγενεστερο
 
-The OpenCV for Unity plugin allows to use just up to YoloV4 models, requiring a pair of .cfg and .wts files as input.    
+# YOLOv4 model
 
-## Get latest version (Editor only)
+Για να χρησιμοποιήσουμε το μοντέλο YOLOv4 με OpenCV, χρειαστήκαμε τα ακόλουθα αρχεία:
 
-https://enoxsoftware.com/opencvforunity/get_asset/
+1. Το αρχείο διαμόρφωσης YOLOv4: Αυτό το αρχείο περιέχει την αρχιτεκτονική δικτύου, συμπεριλαμβανομένου του αριθμού των επιπέδων, των φίλτρων και των κλάσεων που χρησιμοποιούνται για την ανίχνευση αντικειμένων. Το αρχείο ονομάζεται "yolov4.cfg".
 
+2. Το αρχείο "βαρών" YOLOv4: Αυτό το αρχείο περιέχει τις παραμέτρους του δικτύου. Το αρχείο ονομάζεται "yolov4.weights".
 
-## How to set a new YOLOv4 model
+3. Το αρχείο κλάσεων YOLOv4: Αυτό το αρχείο περιέχει τα ονόματα των κλάσεων που το μοντέλο εκπαιδεύτηκε να ανιχνεύει. Το αρχείο συνήθως ονομάζεται "coco.names" για το τυπικό μοντέλο YOLOv4, το οποίο εκπαιδεύτηκει στο σύνολο δεδομένων Common Objects in Context (COCO).
 
-To use a trained YOLOv4 model with OpenCV, you will need the following files:
+## Συμμετέχοντες
 
-1. The YOLOv4 configuration file: This file contains the network architecture, including the number of layers, filters, and classes, as well as the anchors used for object detection. The file is typically named "yolov4.cfg".
+Project/Oμάδα
+    Klima by AR Hawks
 
-2. The YOLOv4 weights file: This file contains the learned parameters of the network. The file is typically named "yolov4.weights".
+Μαθητές
+    Δημήτρης Συκάς (Α Λυκείου)
+    Παναγιώτης Τσότρος (Α Λυκείου)
 
-3. The YOLOv4 classes file: This file contains the names of the classes that the model was trained to detect. The file is typically named "coco.names" for the standard YOLOv4 model, which is trained on the Common Objects in Context (COCO) dataset.
-
-You can download the YOLOv4 configuration file and the pre-trained weights file from the official Darknet website. The YOLOv4 classes file can also be found on the Darknet website or you can create your own file with your own classes.
-
-The official website for the Darknet framework is https://pjreddie.com/darknet/. 
-
-## Where to find YOLOv4 models
-
-You can find YOLOv4 example models trained on food datasets in several places. Here are some options:
-
-1. Darknet: YOLOv4 is developed in Darknet framework and the official repository has pre-trained models, including a food model trained on the Food101 dataset. You can download the model and use it with OpenCV by following the instructions in the Darknet documentation.
-
-2. TensorFlow Hub: TensorFlow Hub offers a pre-trained YOLOv4 model that you can use with OpenCV. The model is trained on the COCO dataset, which includes a food category.
-
-3. Model Zoo: The Model Zoo repository on GitHub has several YOLOv4 models trained on food datasets, including a model trained on the Food-101 dataset and another trained on the UEC-Food-256 dataset. You can download the weights file and use it with OpenCV.
-
-
-## Youtube
-
-    https://www.mecharithm.com/how-to-install-the-opencv-sdk-in-unity/
-
-    https://www.youtube.com/watch?v=U8CS5LSnp9w&ab_channel=Mecharithm-RoboticsandMechatronics
-
-    MP4 Video as a Virtual Webcam - Tutorial
-    https://www.youtube.com/watch?v=hKLH_V4qE_0
-
-## Android Build
-
-Gradle Build needs gradle-6.9.3 (fails with 7.x)
-
-## OBS
-
-    Works with the following:
-
-    - Scene: YoloObjectDetectionWebCam
-    - obs-virtualcam-2.0.5-Windows-installer
-    - OBS-Studio-27.1.3-Full-Installer-x64
-
-
-## For examples to work:
-
-For each example, import stuff as described in Assets/StreamingAssets/dnn/setup_dnn_module.pdf
-
-WebCamTextureToMatHelper:
-
-    Requested Device Name: HD 720P Webcam
-    Requested Width: 1920
-    Requested Height: 1080
-
-## Working Examples
-
-Scene: TensorFlowInceptionWebCam.unity
-
-    Use webcam for object detection
-
-Scene: YoloObjectDetectionWebCam.unity
-
-    Webcam and yolo-v4-tiny model
-    Assets/StreamingAssets/dnn/coco.names: 80 items
-
-    
+Εκπαιδευτικός
+    Γρηγόρης Συκάς (Καθηγητής Φυσικής, 1ο ΓΕΛ Ελευσίνας)
