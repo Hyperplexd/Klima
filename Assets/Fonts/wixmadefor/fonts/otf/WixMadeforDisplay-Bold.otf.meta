@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: 7e16357719f71dd4f99d021beed086fa
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Wix Madefor Display
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4c441a307d3b43e4594590063f7cb793, type: 3}
+  - {fileID: 12800000, guid: 1ee06ed763ad11a41ab246b424770bff, type: 3}
+  - {fileID: 12800000, guid: c3f7596036010a04c8dfb9918bf87a26, type: 3}
+  - {fileID: 12800000, guid: c1902cd8d0771244ca9c2d2b8bea9db7, type: 3}
+  - {fileID: 12800000, guid: 1d9d9b0579475e945bb320f2aa0dbb46, type: 3}
+  - {fileID: 12800000, guid: 1ad9bf3c029bb2446b21f38097ea3e54, type: 3}
+  - {fileID: 12800000, guid: b710fad2a6506b943b97bcfb5cb09f1b, type: 3}
+  - {fileID: 12800000, guid: 0e8f29962e9d1514581c0e2e919c4099, type: 3}
+  - {fileID: 12800000, guid: c4ce1e00742d21d4e9368d4b225c31df, type: 3}
+  - {fileID: 12800000, guid: aaa4766203bca9a4dbbb094dbe0a18ef, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

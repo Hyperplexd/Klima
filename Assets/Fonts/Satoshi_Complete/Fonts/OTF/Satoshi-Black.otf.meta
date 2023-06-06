@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: b6e86b9fc6cd6f246b5dde5a570fb19a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Satoshi
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c0ff97ada51ff434caad396c0cffd565, type: 3}
+  - {fileID: 12800000, guid: 82da2043fff338647bb29d8a7a5dfc2b, type: 3}
+  - {fileID: 12800000, guid: 953187f8014dfd74c8ef37a9e4dd2a0b, type: 3}
+  - {fileID: 12800000, guid: 848e652af27c822488c16eaed2e9e4f6, type: 3}
+  - {fileID: 12800000, guid: 35c37ca00eb548f45bcb10413e648ef9, type: 3}
+  - {fileID: 12800000, guid: 82340a8a09a26794bb5b00d88bc728d0, type: 3}
+  - {fileID: 12800000, guid: 34b51ea9137853843af2df4a3b05f352, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

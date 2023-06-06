@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: b710fad2a6506b943b97bcfb5cb09f1b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Wix Madefor Display
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c3f7596036010a04c8dfb9918bf87a26, type: 3}
+  - {fileID: 12800000, guid: c1902cd8d0771244ca9c2d2b8bea9db7, type: 3}
+  - {fileID: 12800000, guid: c4ce1e00742d21d4e9368d4b225c31df, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

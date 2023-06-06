@@ -1,0 +1,41 @@
+fileFormatVersion: 2
+guid: 8e233ac0610d3a64f8f70c5ebf43b15e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Wix Madefor Text
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7a09620834eeb874bbb0efed44b8bc9a, type: 3}
+  - {fileID: 12800000, guid: 6d6ad2227cbb79f43907e84a97e94d5e, type: 3}
+  - {fileID: 12800000, guid: 6b2b936a86a09514ead9d7d16295004f, type: 3}
+  - {fileID: 12800000, guid: 4bf4b9e6236d2eb4c811a92b6c18f9dd, type: 3}
+  - {fileID: 12800000, guid: c1a594b3560651f4ab41c8b34d936b48, type: 3}
+  - {fileID: 12800000, guid: f73e7aec53dcc6c499fb911814577097, type: 3}
+  - {fileID: 12800000, guid: 736a6c727e746144ba81afbf9d8e7d2b, type: 3}
+  - {fileID: 12800000, guid: e947c5525c1ad5946b17e8a5236a9f46, type: 3}
+  - {fileID: 12800000, guid: 1b2261830a48bfa4187bd26e84560761, type: 3}
+  - {fileID: 12800000, guid: d285d9e0df6a2f84490b5c610868420e, type: 3}
+  - {fileID: 12800000, guid: 825b30e38f874b044902b8b95668c337, type: 3}
+  - {fileID: 12800000, guid: f21ddea6669d8b74f87e8d1ae3650ce9, type: 3}
+  - {fileID: 12800000, guid: 7834d2f3779e11c418cf8b9676953574, type: 3}
+  - {fileID: 12800000, guid: 68aa30e8e8b7c6842babd729adbbc6ec, type: 3}
+  - {fileID: 12800000, guid: 49a5c160a17569f41abb4771120bb05b, type: 3}
+  - {fileID: 12800000, guid: 7bbd1e92639e68b4193f4e6bac480d1c, type: 3}
+  - {fileID: 12800000, guid: f9b0344d4be0a1740b3b0d57a1f9d1d5, type: 3}
+  - {fileID: 12800000, guid: 5564c269d3ff935489d45ce6fd27055c, type: 3}
+  - {fileID: 12800000, guid: e22a51e039692e141926facca861efd7, type: 3}
+  - {fileID: 12800000, guid: 9a0445f9002690a4f97190c612f2b133, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

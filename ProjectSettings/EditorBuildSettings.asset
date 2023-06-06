@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/2d marker.unity
+    guid: 96c2b6fa2f247ed4eb7a08d7636c5b17
+  - enabled: 0
+    path: Assets/Scenes/Ground detection.unity
+    guid: 6d7d44d1d14e13d4998d9aa02334abdf
+  - enabled: 0
+    path: Assets/Scenes/Object detection.unity
+    guid: c4f034254f913b24e810fdc6da75f8cd
+  - enabled: 1
+    path: Assets/_SCENES/UI_Scenes/SignUp.unity
+    guid: 55aa01ff97ff9e542a50fb542c56e8a1
+  - enabled: 1
+    path: Assets/_SCENES/Klima.unity
+    guid: 2fe5a7f9ab101f54d9f149c455bc0ebf
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 30a6882bf84b25641b17a8d24e8f2438, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 559fa770327b21547a6d884dd7396965, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: be5ced4e1996327478ade71c52b082e4, type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 8ce7853054f34344a9d3d5f77cfc9df1, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c0544dabdf4f84646980732e138dceb7, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0a7deddba9618ad4cae40af13a5e9274, type: 2}

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 82340a8a09a26794bb5b00d88bc728d0
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Satoshi
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c0ff97ada51ff434caad396c0cffd565, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
